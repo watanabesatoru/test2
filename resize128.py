@@ -2,7 +2,7 @@ import os
 import glob
 
 from PIL import Image
-
+#
 def expand2square(pil_img, background_color):
     width, height = pil_img.size
     if width == height:
